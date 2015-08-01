@@ -50,18 +50,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <version>9.3-1102-jdbc4</version>
-        </dependency>
-
-        <!--<dependency>-->
-            <!--<groupId>c3p0</groupId>-->
-            <!--<artifactId>c3p0</artifactId>-->
-            <!--<version>${c3p0.version}</version>-->
-        <!--</dependency>-->
-
-        <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-dbcp2</artifactId>
             <version>${apache.commons.dbcp2.version}</version>
@@ -92,25 +80,5 @@
             <artifactId>contiperf</artifactId>
             <version>2.3.4</version>
         </dependency>
-
-        <!--<dependency>-->
-            <!--<groupId>org.databene</groupId>-->
-            <!--<artifactId>contiperf</artifactId>-->
-            <!--<version>2.3.4</version>-->
-        <!--</dependency>-->
-
-        <!--<dependency>-->
-            <!--<groupId>org.hamcrest</groupId>-->
-            <!--<artifactId>hamcrest-all</artifactId>-->
-            <!--<version>LATEST</version>-->
-            <!--<scope>test</scope>-->
-        <!--</dependency>-->
-
-        <!--<dependency>-->
-            <!--<groupId>org.mockito</groupId>-->
-            <!--<artifactId>mockito-all</artifactId>-->
-            <!--<version>LATEST</version>-->
-            <!--<scope>test</scope>-->
-        <!--</dependency>-->
     </dependencies>
 </project>

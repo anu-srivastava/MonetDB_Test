@@ -10,7 +10,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-import nl.cwi.monetdb.jdbc.MonetDatabaseMetaData;
 import org.apache.commons.io.FilenameUtils;
 
 public class DatabaseManager {

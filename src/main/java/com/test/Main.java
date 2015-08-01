@@ -31,10 +31,10 @@ public class Main {
     private static void setupSchema() {
         DatabaseManager manager = new DatabaseManager();
         try {
-            //manager.setupSchema();
+            manager.setupSchema();
             queries = manager.generateQueryStatements();
             ArrayList<String> copyQueries = manager.generateCopyStatements();
-            //RunCopyCommands(copyQueries);
+            RunCopyCommands(copyQueries);
         } catch (IOException e) {
             e.printStackTrace();
         }
